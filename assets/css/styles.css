@@ -1,0 +1,125 @@
+.custom-navbar {
+    background-color: #1f3b52;
+    padding: 15px 0;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+.custom-navbar .navbar-brand {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.custom-navbar .nav-link {
+    color: rgba(255,255,255,0.8);
+    margin-left: 15px;
+    transition: 0.3s ease;
+}
+.custom-navbar .nav-link:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+.custom-navbar .nav-link.active {
+    color: #ffffff;
+    border-bottom: 2px solid white;
+}
+.titulo-seccion {
+    letter-spacing: 2px;
+    border-bottom: 2px solid #1f2d3d;
+    padding-bottom: 10px;
+}
+.timeline {
+    position: relative;
+    margin-left: 20px;
+}
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #1f2d3d;
+}
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -16px;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    background-color: #1f2d3d;
+    border-radius: 50%;
+}
+.link-proyecto {
+    text-decoration: none;
+    color: #1f2d3d;
+    font-weight: 500;
+}
+
+.link-proyecto:hover {
+    text-decoration: underline;
+}
+.sidebar {
+    background-color: #1f3b52;
+    color: #ffffff;
+    min-height: 100%;
+}
+.sidebar .titulo-seccion {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    border-bottom: 2px solid rgba(255,255,255,0.6);
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+.sidebar .text-muted {
+    color: rgba(255,255,255,0.7) !important;
+}
+.sidebar article {
+    margin-bottom: 40px;
+}
+.sidebar h5 {
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+.sidebar p {
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+.aptitudes-lista {
+    padding-left: 20px;
+}
+
+.aptitudes-lista li {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+.contacto-lista i {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.link-contacto {
+    color: #ffffff;
+    text-decoration: underline;
+    transition: 0.3s ease;
+}
+
+.link-contacto:hover {
+    color: #cfd8dc;
+}
+.img-perfil {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
