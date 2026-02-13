@@ -18,6 +18,13 @@ el objetivo es crear un CV el cual posea interactividad mediante manipulacion de
 
 ---
 
+## 📂​ Ubicacion del proyecto
+este proyecto lo puedes encontrar en:
+👉 [Ver Repositorio](https://github.com/No-Igna/M2C18-Evaluacion-Modular-2)
+
+
+---
+
 ## 🌐 Proyecto desplegado
 Puedes ver el proyecto funcionando en: 
 👉 [Ver CV Interactivo](https://no-igna.github.io/M2C18-Evaluacion-Modular-2/)
